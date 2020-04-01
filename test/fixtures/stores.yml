@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nickname: aztec
+  name: Aztec Restaurant
+  description: Get a taco now!
+
+two:
+  nickname: dog_bakery
+  name: Doggo Bakery
+  description: Get treats for your furry friends
