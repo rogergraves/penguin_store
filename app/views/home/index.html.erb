@@ -3,6 +3,17 @@
 <p>Helping you get your food during these tough times</p>
 </div>
 
-<% @stores.each do |store| %>
-<p><%= store.name %></p>
-<% end %>
+
+
+
+
+<div class="container">
+    <% @stores.each do |store| %>
+        <div class="row">
+            <div class="col-sm">
+                <%= store.name %>
+            </div>
+        </div>
+    <% end %>
+</div>
+ 
