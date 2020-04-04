@@ -11,7 +11,7 @@
     <% @stores.each do |store| %>
         <div class="row">
             <div class="col-sm">
-                <%= link_to store_path(store.name, store.id) %>
+                <%= link_to(store.name, store_path(store.id)) %>
             </div>
         </div>
     <% end %>
