@@ -1,6 +1,6 @@
 class StoreController < ApplicationController
   def show
-    @store = Store.find_by(id: params[:id])
+    @store = Store.find_by(nickname: params[:id])
   end
 
   def new
