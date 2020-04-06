@@ -3,9 +3,6 @@ class StoreController < ApplicationController
     @store = Store.find_by(id: params[:id])
   end
 
-  def new
-  end
-
   def edit
   end
 end
