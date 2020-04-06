@@ -1,2 +1,19 @@
+<div class="jumbotron">
 <h1>Welcome to Penguin Store</h1>
 <p>Helping you get your food during these tough times</p>
+</div>
+
+
+
+
+
+<div class="container">
+    <% @stores.each do |store| %>
+        <div class="row">
+            <div class="col-sm">
+                <%= link_to(store.name, store_path(store.id)) %>
+            </div>
+        </div>
+    <% end %>
+</div>
+ 

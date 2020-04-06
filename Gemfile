@@ -23,12 +23,19 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'git-smart', '~> 0.1.10'
 end
 
 group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 4.0'
+  gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
+  gem 'faker', '~> 2.11'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
